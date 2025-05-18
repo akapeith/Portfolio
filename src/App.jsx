@@ -2,6 +2,7 @@ import { LoadingScreen } from "./assets/Components/LoadingScreen"
 import { Navbar } from "./assets/Components/Navbar"
 import { MobileMenu } from "./assets/Components/MobileMenu"
 import { Home } from "./assets/Components/Sections/Home"
+import { About } from "./assets/Components/Sections/About"
 import "../src/index.css"
 import { useState } from "react"
 import "../src/App.css"
@@ -19,6 +20,7 @@ function App() {
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Home/>
+      <About/>
     </div>
     </>
   )
