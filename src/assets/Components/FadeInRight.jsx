@@ -1,6 +1,5 @@
 import { useRef, useState, useEffect } from 'react';
-import '/home/khodor/ReactProjects/Portfolio/Portfolio/src/index.css'; // import the CSS
-
+import '../../index.css';
 const FadeInRight = ({ children }) => {
   const elementRef = useRef(); // reference to the HTML element
   const [isVisible, setIsVisible] = useState(false); // control visibility

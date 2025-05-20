@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import '/home/khodor/ReactProjects/Portfolio/Portfolio/src/index.css';
+import '../../index.css';
 
 const FadeInUp = ({ children }) => {
   const [visible, setVisible] = useState(false);
