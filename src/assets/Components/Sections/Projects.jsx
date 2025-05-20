@@ -1,12 +1,15 @@
+import FadeInRight from "../FadeInRight"
+
 export const Projects = ()=>{
     return <section id="projects" className="min-h-screen flex items-center 
     justify-center py-20">
+        <FadeInRight>
         <div className="max-w-5xl mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400
             text-center bg-clip-text text-transparent">Featured Projects</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="p-6 rounded-xl border border-blue-500 hover:-translate-y-1
-                hover:border-blue-500/30 
+                hover:border-blue-500/30
                 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition">
                     <h3 className="text-xl  font-bold mb-2"> 🛒Fullstack E-commerce Store</h3>
                     <p className="text-gray-400 mb-4">A fully functional eCommerce platform that allows users to browse 
@@ -84,5 +87,6 @@ export const Projects = ()=>{
                 </div>
             </div>
         </div>
+        </FadeInRight>
     </section>
 }
