@@ -4,6 +4,7 @@ import { MobileMenu } from "./assets/Components/MobileMenu"
 import { Home } from "./assets/Components/Sections/Home"
 import { About } from "./assets/Components/Sections/About"
 import { Projects } from "./assets/Components/Sections/Projects"
+import { Contact } from "./assets/Components/Sections/Contact"
 import "../src/index.css"
 import { useState } from "react"
 import "../src/App.css"
@@ -23,6 +24,7 @@ function App() {
       <Home/>
       <About/>
       <Projects/>
+      <Contact/>
     </div>
     </>
   )

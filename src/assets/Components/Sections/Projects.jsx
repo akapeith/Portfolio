@@ -1,9 +1,9 @@
-import FadeInRight from "../FadeInRight"
+import FadeInUp from "../FadeInUp"
 
 export const Projects = ()=>{
     return <section id="projects" className="min-h-screen flex items-center 
     justify-center py-20">
-        <FadeInRight>
+        <FadeInUp>
         <div className="max-w-5xl mx-auto px-4">
             <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400
             text-center bg-clip-text text-transparent">Featured Projects</h2>
@@ -87,6 +87,6 @@ export const Projects = ()=>{
                 </div>
             </div>
         </div>
-        </FadeInRight>
+        </FadeInUp>
     </section>
 }
