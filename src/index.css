@@ -32,6 +32,18 @@ html, body {
   opacity: 1;
   transform: translateX(0); /* move to original place */
 }
+
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-200px); /* start 30px to the left */
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out; /* animate in 0.6s */
+} 
+
+.fade-in-left.visible {
+  opacity: 1;
+  transform: translateX(0); /* move to original place */
+}
+
 .fade-in-up {
   opacity: 0;
   transform: translateY(150px);
